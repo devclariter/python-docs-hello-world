@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Help me, No! importing test "#+ str(3+test.test_function(3))
+    return "Help me, No! importing test "+ str(3+test.test_fucntion(3))
